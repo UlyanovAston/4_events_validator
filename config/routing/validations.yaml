@@ -1,0 +1,9 @@
+form:
+    path: /form
+    controller: App\Controller\ValidationsController::form
+    methods: [POST]
+
+request:
+    path: /request
+    controller: App\Controller\ValidationsController::request
+    methods: [POST]

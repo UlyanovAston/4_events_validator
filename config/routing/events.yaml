@@ -1,0 +1,19 @@
+one:
+    path: /one
+    controller: App\Controller\EventsController::one
+    methods: [GET]
+
+two:
+    path: /two
+    controller: App\Controller\EventsController::two
+    methods: [GET]
+
+three:
+    path: /three
+    controller: App\Controller\EventsController::three
+    methods: [GET]
+
+four:
+    path: /four
+    controller: App\Controller\EventsController::four
+    methods: [GET]

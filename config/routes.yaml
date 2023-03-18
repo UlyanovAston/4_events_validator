@@ -1,0 +1,9 @@
+events:
+    resource: "routing/events.yaml"
+    prefix: /events
+    name_prefix: 'events.'
+
+validations:
+    resource: "routing/validations.yaml"
+    prefix: /validations
+    name_prefix: 'validations.'
