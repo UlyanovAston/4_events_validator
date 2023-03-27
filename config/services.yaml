@@ -16,6 +16,6 @@ services:
         tags:
             - { name: controller.argument_value_resolver, priority: 50 }
 
-#    App\EventListener\RequestHandler:
-#        tags:
-#            - { name: kernel.event_listener, event: kernel.request, method: checkClientIp }
+    App\EventListener\RequestHandler:
+        tags:
+            - { name: kernel.event_listener, event: kernel.request, method: checkClientIp }
